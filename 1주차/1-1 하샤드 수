@@ -22,17 +22,13 @@ return 문에 바로 x%sum==0을 써주는 것이 (변수 선언 없이 값을 �
 
 class Solution {
     public boolean solution(int x) {
-        boolean answer = true;
         int xCopy = x, sum = 0;
 
         while(xCopy>0) {
             sum+=xCopy%10;
             xCopy/=10;
         }
-        if(x%sum!=0) {
-            answer = false;
-        }
-        return answer;
+        return x%sum==0;
     }
 }
 
