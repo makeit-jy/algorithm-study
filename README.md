@@ -1,1 +1,3 @@
-# algorithm-study
+## algorithm-study
+
+CT 문제를 풀고 코드 리뷰 받은 부분과 질문 사항에 대한 답을 정리하는 저장소입니다.
